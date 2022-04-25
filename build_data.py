@@ -69,7 +69,7 @@ def get_all_service_homepage() -> List[ServiceHomepage]:
 
 service_homepage_list = get_all_service_homepage()
 for service_homepage in service_homepage_list:
-    # service_homepage = ServiceHomepage(
+    # service_homepage = ServiceHomepage( # for debug only
     #     name="EC2",
     #     url="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html"
     # )
