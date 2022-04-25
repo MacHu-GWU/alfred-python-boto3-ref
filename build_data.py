@@ -16,15 +16,12 @@ dir_here = Path.dir_here(__file__)
 dir_cache = Path(dir_here, ".cache")
 
 dir_home = Path.home()
-p_alfred_data = Path(dir_home, ".alfred-fts", f"{dataset_name}.json")
-p_alfred_setting_data = Path(dir_home, ".alfred-fts", f"{dataset_name}-setting.json")
+p_alfred_data = Path(dir_here, f"{dataset_name}.json")
+p_alfred_setting_data = Path(dir_here, f"{dataset_name}-setting.json")
 
 cache = Cache(dir_cache.abspath)
 cache_expire = 24 * 3600
-
-
 # ------------------------------------------------------------------------------
-
 
 def get_html_with_cache(url: str) -> str:
     if url in cache:
