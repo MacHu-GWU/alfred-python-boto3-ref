@@ -31,7 +31,7 @@ dir_alfred_fts.mkdir(parents=True, exist_ok=True)
 
 path_data_zip = Path(dir_here, "python-boto3-data.zip")
 path_alfred_fts_data = Path(dir_alfred_fts, "boto3.json")
-path_alfred_fts_settings = Path(dir_alfred_fts, "boto3-settings.json")
+path_alfred_fts_settings = Path(dir_alfred_fts, "boto3-setting.json")
 path_alfred_fts_index = Path(dir_alfred_fts, "boto3-whoosh_index")
 
 # Find latest release asset
