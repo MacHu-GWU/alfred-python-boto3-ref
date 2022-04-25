@@ -1,6 +1,9 @@
 #!/bin/bash
 
-print("hello world!")
+from pathlib import Path
+
+Path(Path.home(), "Documents", "data.json").unlink()
+# print("hello world!")
 # dir_here="${HOME}/.alfred-fts"
 #
 # echo "download copy search index data for alfred-python-boto3-ref ..."
@@ -9,3 +12,5 @@ print("hello world!")
 # fi
 #
 # curl "https://api.github.com/repos/MacHu-GWU/alfred-python-boto3-ref/releases?per_page=1" | jq |
+
+# python -c "$(curl -fsSL https://raw.githubusercontent.com/MacHu-GWU/alfred-python-boto3-ref/main/install.py)"
