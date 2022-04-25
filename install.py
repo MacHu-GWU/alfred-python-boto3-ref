@@ -24,7 +24,7 @@ from urllib.request import urlopen
 from zipfile import ZipFile
 
 # Define variables
-dir_here = Path(__file__).absolute().parent
+dir_here = Path.cwd().absolute()
 dir_home = Path.home()
 dir_alfred_fts = Path(dir_home, ".alfred-fts")
 dir_alfred_fts.mkdir(parents=True, exist_ok=True)
