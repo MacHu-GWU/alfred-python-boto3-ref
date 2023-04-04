@@ -15,14 +15,22 @@ The `build_data.py <./build_data.py>`_ is a crawler that scrape information from
 
     [
         {
-            "title": "S3.get_object",
-            "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html#S3.Client.get_object",
-            "ngram_field": "s3 get object"
+            "title": "client | s3.get_object",
+            "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/get_object.html",
+            "ngram1": "client",
+            "ngram2": "s3",
+            "ngram3": "s3",
+            "ngram4": "get_object",
+            "order": 1
         },
         {
-            "title": "S3.put_object",
-            "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html#S3.Client.put_object",
-            "ngram_field": "s3 put object"
+            "title": "client | s3.put_object",
+            "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/put_object.html",
+            "ngram1": "client",
+            "ngram2": "s3",
+            "ngram3": "s3",
+            "ngram4": "put_object",
+            "order": 1
         },
         ...
     ]
