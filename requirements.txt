@@ -2,3 +2,5 @@ beautifulsoup4
 requests
 diskcache
 pathlib_mate
+cached_property
+afwf>=0.3.1
