@@ -8,6 +8,8 @@ I create an `Alfred Workflow <https://www.alfredapp.com/workflows/>`_ framework 
 
 **This project allows you to quickly search and browse Python boto3 api documents**. It automates the creation of the "your own json data" for boto3 document searching.
 
+.. image:: ./images/demo.gif
+
 
 How it Work?
 ------------------------------------------------------------------------------
@@ -44,6 +46,10 @@ Just run the following script, it will generate the data file and setting file o
 
 How to Install?
 ------------------------------------------------------------------------------
+**Dependencies**:
+
+    You have to install `the Full-Text-Search Anything Alfred Workflow <https://github.com/MacHu-GWU/afwf_fts_anything-project>`_, make sure you read the document there and successfully configured the sample IMDB top 250 movies dataset working.
+
 **The automate way**:
 
     We have a `installation script <./install.py>`_, so just do:
