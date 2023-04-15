@@ -8,7 +8,9 @@ I create an `Alfred Workflow <https://www.alfredapp.com/workflows/>`_ framework 
 
 **This project allows you to quickly search and browse Python boto3 api documents**. It automates the creation of the "your own json data" for boto3 document searching.
 
-.. image:: ./images/demo.gif
+.. image:: https://user-images.githubusercontent.com/6800411/232175659-7315c16c-136e-4e0f-9d2a-4abebc81a1d6.gif
+
+.. image:: https://user-images.githubusercontent.com/6800411/232175660-a16923e7-e218-426a-8a29-8599170d1a91.gif
 
 
 How it Work?
