@@ -63,3 +63,9 @@ How to Install?
 **The manual way**:
 
     You can also download the dataset directly from `Release <https://github.com/MacHu-GWU/alfred-python-boto3-ref/releases>`_. Just Download ``python-boto3-data.zip``, extract it in ``${HOME}/.alfred-fts``. Follow Alfred Workflow Config instruction in https://github.com/MacHu-GWU/afwf_fts_anything-project
+    
+**Configure Full-Text-Search Alfred Workflow**
+
+.. image:: https://user-images.githubusercontent.com/6800411/232178422-2b16a83f-53ba-4661-9f1a-e63694ad2e38.png
+
+.. image:: https://user-images.githubusercontent.com/6800411/232178426-f95dc6a2-5c89-4f88-860d-6d640cb47b3c.png
